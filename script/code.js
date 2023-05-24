@@ -13,3 +13,18 @@
 
 let fullName = ('Maarij Camroodien')
 console.log(fullName);
+
+let firstName = ('Maarij')
+console.log(firstName);
+
+let lastName = ('Camroodien')
+console.log(lastName);
+
+let age = (18)
+console.log(age);
+
+let subjects = ['Math', 'English', 'Afrikaans', 'Life Science', 'Business', 'Geography', 'Life Orientation']
+console.log(subjects);
+
+let address = [122, 'Repulse Road', 'Rylands', 'Athlone', 'Cape Town', 'South Africa']
+console.log(address);
