@@ -28,3 +28,20 @@ console.log(subjects);
 
 let address = [122, 'Repulse Road', 'Rylands', 'Athlone', 'Cape Town', 'South Africa']
 console.log(address);
+
+function equal(){
+    let btnResult = document.querySelector ('#display')
+    let numb1 = +document.querySelector ('#num1').value
+    let numb2 = +document.querySelector ('#num2').value
+    let operator = document.querySelector ('#operator').value
+
+if(operator == '+') {
+    btnResult.innerHTML = numb1 + numb2;
+} else if (operator == '-'){
+    btnResult.innerHTML = numb1 - numb2;
+}else if (operator == '/'){
+    btnResult.innerHTML = numb1 / numb2;
+}else if (operator == '*'){
+    btnResult.innerHTML = numb1 * numb2;
+}
+}
