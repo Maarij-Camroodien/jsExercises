@@ -1,3 +1,4 @@
+//Q1
 //  1. Variables: containers for storing data 
 //  2. Value: A value is the representation of some entity that can be manipulated by the program it is in
 //  3. Data Types:  describe the different types or kinds of data that we're gonna be working with and storing in variables
@@ -11,6 +12,7 @@
 //  8. what is hoisting: the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code
 //    -What is variable scoping: the accessibility of a particular variable within the program
 
+//Q2
 let fullName = ('Maarij Camroodien')
 console.log(fullName);
 
@@ -29,6 +31,8 @@ console.log(subjects);
 let address = [122, 'Repulse Road', 'Rylands', 'Athlone', 'Cape Town', 'South Africa']
 console.log(address);
 
+
+//Q3
 function equal(){
     let btnResult = document.querySelector ('#display')
     let numb1 = +document.querySelector ('#num1').value
@@ -45,3 +49,23 @@ if(operator == '+') {
     btnResult.innerHTML = numb1 * numb2;
 }
 }
+
+
+//Q4
+let subject = 'programming';
+
+function reverse(subject) {
+    // counter
+    let newsubject = '';
+
+    // range
+    for (let i = subject.length -1; i >= 0; i--) {
+        newsubject += subject[i];
+        
+    }
+
+    return newsubject
+}
+
+let output = reverse(subject)
+console.log(output);
